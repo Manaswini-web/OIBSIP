@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner's Landing Page</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #666;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #666;
+            color: #fff;
+        }
+        
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden; 
+        }
+        
+        .main {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .main .column {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .main .column h2 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .main .column p {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        
+        @media (max-width: 768px) {
+            .main {
+                flex-direction: column;
+            }
+            .main .column {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beginner's Landing Page</h1>
+        <p>This project helps you learn HTML and CSS fundamentals.</p>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <div class="main">
+            <div class="column">
+                <h2>Column 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus non urna pulvinar gravida.</p>
+            </div>
+            <div class="column">
+                <h2>Column 2</h2>
+                <p>Nulla facilisi. Integer ac turpis commodo, pretium odio nec, lacinia felis.</p>
+            </div>
+            <div class="column">
+                <h2>Column 3</h2>
+                <p>Suspendisse potenti. Sed ullamcorper vestibulum odio, sit amet pharetra nisi tincidunt at.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Beginner's Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+https://manaswini-web.github.io/J.manaswini/landling.html
