@@ -14,7 +14,7 @@ header {
 }
 
 .profile-photo {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 150px;
     height: 150px;
 }
